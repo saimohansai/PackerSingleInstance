@@ -1,4 +1,6 @@
 https://medium.com/@sanudatta11/building-custom-ami-using-packer-io-5df55f32ebbb
+https://lobster1234.github.io/2017/04/23/packer-your-AMIs-for-immutable-aws-deployments/
+https://www.middlewareinventory.com/blog/build-packer-aws-image-example/
 
 
 
