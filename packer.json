@@ -1,7 +1,7 @@
 {
     "_comment" : "Create a AWS AMI ith AMZ Linux 2018 with Java and Tomcat",
     "variables": {
-      
+
       "region": "",
       "source_ami":"",
       "instance_type":"",
@@ -11,7 +11,7 @@
     
 
     "builders": [{
-      "type": "amazon-ebs ",
+      "type": "amazon-ebs",
       "region": "us-east-1",
       "source_ami": "ami-0f42a4e7e0e336f16",
       "instance_type": "t2.micro",
