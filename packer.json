@@ -11,7 +11,7 @@
     
 
     "builders": [{
-      "type": "amazon-ebs ",
+      "type": "amazon-ebs",
       "region": "us-east-1",
       "source_ami": "ami-0f42a4e7e0e336f16",
       "instance_type": "t2.micro",
