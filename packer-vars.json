@@ -1,5 +1,7 @@
 {
-    "aws_profile":".aws/credentials",
+    
+    "aws_access_key": "xxx",
+    "aws_secret_key": "yyy",
     "region": "us-east-1",
     "source_ami":"ami-0f42a4e7e0e336f16",
     "instance_type":"t2.micro",
