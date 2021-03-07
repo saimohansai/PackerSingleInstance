@@ -47,3 +47,5 @@ variable "test_forwarding_config" {
       443       =   "TCP" # and so on
   }
 }
+variable "imagename" {}
+
