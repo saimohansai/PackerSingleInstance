@@ -1,23 +1,20 @@
 {
     "_comment" : "Create a AWS AMI ith AMZ Linux 2018 with Java and Tomcat",
     "variables": {
-      "aws_access_key": "",
-      "aws_secret_key": ""
-      
+        "aws_access_key": "",
+        "aws_secret_key": "",
     },
     
 
     "builders": [{
-      "access_key": "{{user `aws_access_key`}}",
-      "secret_key": "{{user `aws_secret_key`}}",
+        "access_key": "{{user `aws_access_key`}}",
+        "secret_key": "{{user `aws_secret_key`}}",
       "associate_public_ip_address": "true",
       "ami_virtualization_type": "hvm",
       "type": "amazon-ebs",
       "region": "us-east-1",
       "source_ami": "ami-013f17f36f8b1fefb",
       "instance_type": "t2.micro",
-      "ssh_keypair_name": "Terraform",
-      "ssh_private_key_file": "./Terraform.pem",
       "ssh_username": "ubuntu",
       "ami_name": "DevOpsClass-Build-{{isotime | clean_resource_name}}",
       "vpc_id": "vpc-07e43049bd4852835",
