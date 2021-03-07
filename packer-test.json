@@ -2,13 +2,13 @@
     "_comment" : "Create a AWS AMI ith AMZ Linux 2018 with Java and Tomcat",
     "variables": {
         "aws_access_key": "",
-        "aws_secret_key": "",
+        "aws_secret_key": ""
     },
     
 
     "builders": [{
-        "access_key": "{{user `aws_access_key`}}",
-        "secret_key": "{{user `aws_secret_key`}}",
+    "access_key": "{{user `aws_access_key`}}",
+       "secret_key": "{{user `aws_secret_key`}}",
       "associate_public_ip_address": "true",
       "ami_virtualization_type": "hvm",
       "type": "amazon-ebs",
@@ -41,4 +41,4 @@
 
         ]
     }]
-  }
+}
